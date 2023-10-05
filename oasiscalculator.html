@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="oasiscalculator.css">
+    <script src="oasiscalculator.js"></script>
+</head>
+<body>
+    <table class="calci" >
+        <tr>
+          <td colspan="3"> <input class="view" type="text" id="outlook" /> </td>
+          <td> <input type="button" value="C" onclick="clearScreen()" id="buttons" /> </td>
+        </tr>
+        <tr>
+          <td> <input type="button" value="1" onclick="view('1')" /> </td>
+          <td> <input type="button" value="2" onclick="view('2')" /> </td>
+          <td> <input type="button" value="3" onclick="view('3')" /> </td>
+          <td> <input type="button" value="/" onclick="view('/')" /> </td>
+        </tr>
+        <tr>
+          <td> <input type="button" value="4" onclick="view('4')" /> </td>
+          <td> <input type="button" value="5" onclick="view('5')" /> </td>
+          <td> <input type="button" value="6" onclick="view('6')" /> </td>
+          <td> <input type="button" value="-" onclick="view('-')" /> </td>
+        </tr>
+        <tr>
+          <td> <input type="button" value="7" onclick="view('7')" /> </td>
+          <td> <input type="button" value="8" onclick="view('8')" /> </td>
+          <td> <input type="button" value="9" onclick="view('9')" /> </td>
+          <td> <input type="button" value="+" onclick="view('+')" /> </td>
+        </tr>
+        <tr>
+          <td> <input type="button" value="." onclick="view('.')" /> </td>
+          <td> <input type="button" value="0" onclick="view('0')" /> </td>
+          <td> <input type="button" value="=" onclick="calculate()" id="buttons" /> </td>
+          <td> <input type="button" value="*" onclick="view('*')" /> </td>
+        </tr>
+      </table>
+       
+      <script type="text/javascript" src="oasiscalculator.js"></script>
+</body>
+</html>
